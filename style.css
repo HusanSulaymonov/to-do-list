@@ -16,21 +16,21 @@
     width: 100%;
     max-width: 540px;
     background: #fff;
-    margin: 100px auto 20px;
-    padding: 40px 30px 70px;
-    border-radius: 20px;
+    margin: 6.25rem auto 1.25rem;
+    padding: 2.5rem 1.87rem 4.37rem;
+    border-radius: 1.25rem;
 }
 
 .todo-app h2 {
     color: #002765;
     display: flex;
     align-items: center;
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
 }
 
 .todo-app h2 img {
-    width: 30px;
-    margin-left: 10px;
+    width: 1.87rem;
+    margin-left: 0.625rem;
 }
 
 .row {
@@ -38,9 +38,9 @@
     align-items: center;
     justify-content: space-between;
     background: #edeef0;
-    border-radius: 20px;
-    padding-left: 20px;
-    margin-bottom: 25px;
+    border-radius: 1.25rem;
+    padding-left: 1.25rem;
+    margin-bottom: 1.56rem;
 }
 
 input {
@@ -48,25 +48,25 @@ input {
     border: none;
     outline: none;
     background: transparent;
-    padding: 10px;
+    padding: 0.625rem;
     font-weight: 14px;
 }
 
 button {
     border: none;
     outline: none;
-    padding: 16px 30px;
+    padding: 1rem 1.87rem;
     background: #ff5945;
     color: #fff;
-    font-size: 16px;
-    border-radius: 20px;
+    font-size: 1rem;
+    border-radius: 1.25rem;
     cursor: pointer;
 }
 
 ul li {
     list-style: none;
     font-size: 17px;
-    padding: 12px 8px 12px 50px;
+    padding: 0.75rem 0.5rem 0.75rem 3.125rem;
     user-select: none;
     cursor: pointer;
     position: relative;
@@ -75,14 +75,14 @@ ul li {
 ul li::before {
     content: '';
     position: absolute;
-    height: 20px;
-    width: 20px;
+    height: 1.25rem;
+    width: 1.25rem;
     border-radius: 50%;
     background-image: url(images/unchecked.png);
     background-size: cover;
     background-position: center;
-    top: 12px;
-    left: 8px;
+    top: 0.75rem;
+    left: 0.5rem;
 }
 
 ul li.checked {
@@ -98,7 +98,7 @@ ul li span {
     position: absolute;
     right: 0;
     top: 5px;
-    width: 40px;
+    width: 2.5rem;
     height: 40px;
     font-size: 22px;
     color: #555;
