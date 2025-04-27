@@ -38,7 +38,7 @@ function showTask() {
 showTask();
 
 // Enter bosilganda task qo‘shish
-inputBox.addEventListener("keypress", function(e) {
+inputBox.addEventListener("keydown", function(e) {
     if (e.key === "Enter") {
         addTask();
     }
