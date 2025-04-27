@@ -125,10 +125,6 @@ ul li span:hover {
         margin: 0 auto 0;
     }
 
-    .todo-app {
-        
-    }
-
     .row {
         display: flex;
         flex-shrink: 3;
