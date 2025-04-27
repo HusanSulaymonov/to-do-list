@@ -112,8 +112,30 @@ ul li span:hover {
 }
 
 @media only screen and (max-width: 768px) {
+    .container {
+        width: 100%;
+        max-width: 800px;
+        margin: 0 auto 0;
+    }
+
     .todo-app {
-        max-width: 90%;
-        margin: 30px auto 0;
+        
+    }
+
+    .row {
+        display: flex;
+        flex-shrink: 3;
+    }
+
+    #input-box {
+        flex-grow: 1;
+    }
+
+    button {
+        flex-shrink: 2;
     }
 }
+
+@media (max-width: 375px) {
+    /* kichik ekranlar uchun stillar */
+  }
