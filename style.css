@@ -145,6 +145,10 @@ ul li span:hover {
     padding: 0;
   }
   
+h2 {
+    color: white;
+}
+
 #trashList li {
     background-color: #f8d7da; /* O'chirilgan tasklar uchun och qizil fon */
     padding: 10px;
