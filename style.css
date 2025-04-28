@@ -147,6 +147,7 @@ ul li span:hover {
   
 h2 {
     color: white;
+    padding-left: 2rem;
 }
 
 #trashList li {
